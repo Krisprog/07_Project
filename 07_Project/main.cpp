@@ -43,6 +43,10 @@ public:
 		name = n;
 		age = a;
 	}
+	void Print()
+	{
+		cout << name << "\t" << age << endl;
+	}
 };
 class Academy
 {
@@ -50,10 +54,6 @@ class Academy
 	int count;
 public:
 	Academy(){}
-	void Print()
-	{
-		cout << name << "\t" << age << endl;
-	}
 
 };
 
@@ -63,5 +63,10 @@ int main()
 	Point obj2;
 
 	int mas[5]{ 1,2,3,4,5 };
+	for (int i = 0; i < 5; i++)
+	{
+		cout << mas[i] << "\t";
+	}
+	cout << endl;
 
 }

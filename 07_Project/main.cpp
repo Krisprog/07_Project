@@ -31,6 +31,25 @@ public:
 		name = n;
 		age = a;
 	}
+};
+class Student
+{
+	string name;
+	int age;
+public:
+	Student(){}
+	Student(string n, int a)
+	{
+		name = n;
+		age = a;
+	}
+};
+class Academy
+{
+	Student* group;
+	int count;
+public:
+	Academy(){}
 	void Print()
 	{
 		cout << name << "\t" << age << endl;
